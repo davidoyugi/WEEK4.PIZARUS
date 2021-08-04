@@ -21,18 +21,203 @@
     </p>
     <h3></h3>
     <p></p>
-    <h2>
-        Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using
-        a wood-fired oven heated to a very high temperature—and served hot.
-    </h2>
+    Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using
+    a wood-fired oven heated to a very high temperature—and served hot.
+    <h2>About
+        <div class="about">
 
-    </ul>
-    <h2></h2>
-    <ol>
+            <div class="image1">
+                <img src="./assets/about us.jpg" alt="" height="200px">
 
-    </ol>
-    <p>
-        <a href=>Click here</a>
+            </div><br>
+            <div class="text">
+                <p>The homemade pizza dough is produced in-house daily and is another reason why the pizza at Pizza Inn always tastes better. The Twisty Bread, the signature Wingz and the delicious Double Meal are additional value-for-money options that
+                    keep our satisfied customers coming back time after time. These are the meals that have made our Terrific Tuesday everyone’s favorite day of the week. When entertaining, a Hawaiian pizza, a Regina pizza, or a Peri Peri Chicken pizza
+                    from Pizza Inn is the obvious and perfect option to please crowds of all ages.
+                </p>
+            </div><br>
+            <div class="image2">
+                <img src="./assets/about 2-Basil-Tomato.jpg" alt="" height="200">
+                <img src="./assets/obee-s-2-for-1-pizza.jpg" </div><br>
+            </div>
+            <!--End of About Section -->
+            <!--Stat of Menu section-->
+            <div class="container">
+                <div class="menu">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/largee.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Large</h4>
+                            <p class="card-text">Ksh 1000</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width:18rem;">
+                        <img src="./assets/medium-sized-pizza-19456352.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Medium</h4>
+                            <p class="card-text">Ksh 799</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width:18rem;">
+                        <img src="./assets/Chicken-cheese-pizza-Small.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>Small</h4>
+                            <p class="card-text">Ksh 550</p>
+                        </div>
+                    </div>
+                </div><br><br>
+
+            </div>
+        </div><br><br>
+
+        <!--End of menu section-->
+        <!---Start of Order Section-->
+
+        <div class="container-fluid" id="selection">
+            <h2>Place Your Order</h2><br>
+            <div class="selection">
+
+                <div class="customer">
+                    <h3>Your Order is;</h3><br>
+                    <div id="cart1">
+                        <ol id="cart"></ol>
+
+
+                        <!-- <li class="p"></li><br>
+                    <li class="s"></li><br>
+                    <li class="t"></li><br>
+                    <li class="c"></li><br>
+                    <li class="n"></li><br>
+                    <li class="total">Total:</li><br> -->
+                    </div>
+                    <div class="delivery">
+                        <h3>DELIVERY?</h3>
+                        <form action="" yes delivery?>
+
+                            <input type="radio" id="yes" name="fav_dev" value="Yes">   <label for="html">Yes</label><br>   <input type="radio" id="no" name="fav_dev" value="No">   <label for="css">No</label><br>
+                        </form>
+                    </div>
+                </div><br>
+                <div class="cus">
+                    <select name="" id="pname" class="validate" required ">
+                    <option value="selected " selected class="selected ">Choose Your Flavour...</option>
+                    <option value="Mozarela Pizza ">Mozarela Pizza</option>
+                    <option value="Veggie Pizza ">Veggie Pizza</option>
+                    <option value="Pepperoni Pizza ">Pepperoni Pizza</option>
+                    <option value="Beef Pizza ">Beef Pizza</option>
+                    <option value="Swiss Pizza ">Swiss Pizza</option>
+                    <option value="BBQ Chicken Pizza ">BBQ Chicken Pizza</option>
+                    <option value="Hawaiian Pizza ">Hawaiian Pizza</option>
+                    <option value="chicken Pizza ">chicken Pizza</option>
+                    <option value="Deluxe Pizza ">Deluxe Pizza</option>
+                    <option value="Special Pizza ">Special Pizza</option>
+                </select><br><br><br><br><br><br>
+
+                <select name=" " id="size " class="validate " required >
+                    <option value="selected " selected class="selected ">Choose Your Size...</option>
+                    <option value="Large ">Large(Ksh 1000)</option>
+                    <option value="Medium ">Medium(Ksh 799)</option>
+                    <option value="Small ">Small(Ksh 550)</option>
+
+                <select name=" " id="crust " class="validate " required >
+                    <option value="selected " selected class="selected ">Choose Your Crust...</option>
+                    <option value="Crispy ">Crispy(Ksh250)</option>
+                    <option value="Stuffed ">Stuffed(Ksh150)</option>
+                    <option value="Gluten-free ">Gluten-free(Ksh100)</option>
+                </select><br><br><br><br><br>
+
+                <select name=" " id="toppings " class="validate " required >
+                    <option value="selected " selected class="selected ">Choose Your Toppings...</option>
+                    <option value="Extra cheese ">Extra cheese(Ksh 50)</option>
+                    <option value="Extra Cheese ">Extra beef(Ksh 20)</option>
+                    <option value="Pineapple ">Pineapple(Ksh 120)</option>
+                    <option value="Pepperoni ">chicken(Ksh 150)</option>
+                </select><br><br><br><br>
+
+                <input name=" " required value="number " type="number " id="number " placeholder="Number of pizzas " min="1 "
+                    class="n " >
+            </div>
+        </div><br><br>
+        <button class="btn-outline " id="btnn " onclick=" ">Order</button><br><br>
+
+
+    </div>
+    <!---End of Order Section-->
+    <!----Start of Footer Section-->
+    <footer>
+        <div class="footer ">
+            <div class="container " id="foot ">
+                <h2>Contacts</h2><br><br id="contact ">
+                <div class="row ">
+                    <div class="footer-col1 ">
+                        <img src="./assets/download.jpeg " alt=" ">
+                    </div>
+                    <div class="footer-col2 ">
+                        <h5><span></span>pizarus</h5>
+                        <ul>
+                            <li><a href="home " id=" "> Home</a></li>
+                            <li><a href="about " id=" ">About</a></li>
+                            <li><a href="menu " id=" ">Menu</a></li>
+                            <li><a href="order " id=" ">Order</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col3 ">
+                        <h5>Contacts</h5>
+                        <ul>
+                            <li><a href="# ">0777777777777</a></li>
+                            <li><a href="# ">Nairobi,Kenya</a></li>
+                            <li><a href="# ">pizarus@gmail.com</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col4 ">
+                        <h5>Social Media</h5>
+                        <div class="follow-us ">
+                            <a href="facebook "><i class="fab fa-facebook-f "></i></a>
+                            <a href="whatsapp "><i class="fab fa-whatsapp "></i></a>
+                            <a href="instagram "><i class="fab fa-instagram "></i></a>
+                            <a href="twitter "><i class="fab fa-twitter "></i></a>
+                        </div>
+                    </div>
+                     
+     
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright ">
+            <h4>&copy;2021 All Rights Reserved!</h4>
+        </div>  
+        
+    </footer>
+     <!---End of Footer ---->
+</section>
+
+
+
+
+
+
+
+<!---Javascript link section-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+    crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+    crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+    crossorigin="anonymous "></script>
+<script src="main.js "></script>
+
+<!---End of Js link section-->
+
+
+</body>
+
+</html>
     </p>
 </body>
 
