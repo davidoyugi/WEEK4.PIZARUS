@@ -25,6 +25,15 @@
   
   *JQUERY
   
+  
+   ##INSTALLATION DETAILS
+  
+  *download the zipfile to your desktop
+  
+  *simply extract files
+  
+  *access index.html
+  
   ##CONTACT
   
   david.oyugi@student.moringa.school
